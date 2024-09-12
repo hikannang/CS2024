@@ -1,12 +1,43 @@
-<!-- Class notes:
- WCAG 2 => need to comply with a standard
- "Under the compliance of WCAG2"
- 
- For HTML: WCAG2
- For Reference/ Learning about HTML and CSS: W3 Schools
- 
- New Assignment: E-Learning week, blog assignment
- based on the problem statements
- -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive HTML</title>
 
- 
+        <!-- Viewport meta tag (for mobile) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        
+        <!-- Google font resource -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div id="mheader">
+            <div class="container">
+                <div id="mlogo">Logo</div>
+                <div id="mnav">Menu</div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="container">
+                <div id="logo" style="background-color: green;">
+                    <h1>Logo</h1></div>
+                <div id="menu" style="background-color: yellow;">
+                <ul id="topmenu">
+                    <li><a href="#" class="topmenu-selected">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </body>
+</html>

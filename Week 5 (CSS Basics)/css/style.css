@@ -1,0 +1,78 @@
+html{
+    background-color: greenyellow;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+
+    /* Fonts */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+    background-color: #dfdfdf;
+}
+
+#header{
+    width:100%;
+    min-height:100px;
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #cccccc;
+    
+    display:block;
+    visibility: visible;
+}
+
+#mheader{
+    display: none;
+    visibility: hidden;
+}
+
+#logo{
+    width:30%;
+    float:left;
+}
+
+#menu{
+    width:69%;
+    float:right;
+}
+
+#topmenu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topmenu li{
+    float:left;
+    margin-right: 10px;
+}
+
+#topmenu li a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:blue;
+}
+
+#topmenu li a hover,
+#topmenu li a.topmenu-selected{
+    color:brown;
+}
+
+/* for mobile */
+@media only screen and (max-width:700px){
+    #mheader{
+        display: block;
+        visibility: visible;
+    }
+    #header{
+        display: none;
+        visibility: hidden;
+    }
+}
