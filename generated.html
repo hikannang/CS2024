@@ -1,0 +1,239 @@
+    <!-- Buttons -->
+    <section>
+        <h2>Buttons</h2>
+        <button type="button" class="btn btn-primary">Primary Button</button>
+        <button type="button" class="btn btn-secondary">Secondary Button</button>
+        <button type="button" class="btn btn-success">Success Button</button>
+    </section>
+
+    <!-- Forms -->
+    <section class="mt-4">
+        <h2>Forms</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Cards -->
+    <section class="mt-4">
+        <h2>Cards</h2>
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alerts -->
+    <section class="mt-4">
+        <h2>Alerts</h2>
+        <div class="alert alert-warning" role="alert">
+            This is a warning alert—check it out!
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <section class="mt-4">
+        <h2>Navbar</h2>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Modals -->
+    <section class="mt-4">
+        <h2>Modals</h2>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        This is a modal example.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Accordion -->
+    <section class="mt-4">
+        <h2>Accordion</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        This is the first item's accordion body.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        This is the second item's accordion body.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Carousel -->
+    <section class="mt-4">
+        <h2>Carousel</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- NEW: Progress Bar -->
+    <section class="mt-4">
+        <h2>Progress Bar</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+    </section>
+
+    <!-- NEW: List Group -->
+    <section class="mt-4">
+        <h2>List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </section>
+
+<!-- NEW: Toast -->
+<section class="mt-4">
+    <h2>Toast</h2>
+    <button type="button" class="btn btn-primary" id="showToast">Show Toast</button>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="https://via.placeholder.com/20" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, this is a toast message.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NEW: Badge -->
+<section class="mt-4">
+    <h2>Badge</h2>
+    <button type="button" class="btn btn-primary">
+        Notifications <span class="badge bg-secondary">4</span>
+    </button>
+</section>
+
+<!-- NEW: Breadcrumb -->
+<section class="mt-4">
+    <h2>Breadcrumb</h2>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+    </nav>
+</section>
+
+<!-- NEW: Spinner -->
+<section class="mt-4">
+    <h2>Spinner</h2>
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</section>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://s<style>html { filter: contrast(100%) brightness(100%) saturate(100%);}                        .NIGHTEYE_Filter {                            width:100%; height:100%;                            position:fixed;                            left:0; top:0;                            pointer-events:none;                            z-index:4000000000;                        }                        .NIGHTEYE_YellowFilter {                            background:rgba(255, 255, 0, 0.15);                            opacity:0;                        }                        .NIGHTEYE_BlueFilter {                            background:rgba(0, 0, 255, 0.15);                            opacity:0;                        }                        .NIGHTEYE_DimFilter {                            background:rgba(0, 0, 0, 0.5);                            opacity:0;                        }                        .NIGHTEYE_TransformZ {                            transform:translateZ(0);                        }</style>tackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Toast Trigger
+    document.getElementById('showToast').addEventListener('click', function () {
+        var toastEl = document.getElementById('liveToast');
+        var toast = new bootstrap.Toast(toastEl);
+        toast.show();
+    });
+</script>
+</body>
+</html>
